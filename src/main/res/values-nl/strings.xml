@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Happyworx SR Demo</string>
+
+    <string name="start_screen_caption_en"></string>
+    <string name="I_heared_caption">Ik hoorde : </string>
+    <string name="preparingRecognizer_caption">Spraakherkenning voorbereiden\n\n Even wachten aub...</string>
+        <string name="info_screen_text">\n\nHappyworx Speech Recognition Demo\n\n
+
+Deze demo is ontwikkeld als een Proof of Concept van Pocketsphinx in de context van een leren-lezen applicatie voor kinderen.\n\n
+In deze demo wordt Pocketsphinx gebruikt in combinatie met het VoxForge language model voor de Nederlandse taal.
+Als je meer wilt weten over Pocketsphinx, suft dan naar \n\n http://cmusphinx.sourceforge.net/ \n\n Wil je meer weten over Voxforge? Bezoek dan \n\n
+www.voxforge.org.\n\n
+
+Happyworx maakt apps voor android. Wil je meer weten over Happyworx? Bezoek dan www.happyworx.nl, of klik op de button hierboven.
+\n\n
+Hieronder vind je de copyright-notice van Pocketsphinx :
+\n\n
+Copyright © 2014 Alpha Cephei Inc.  All rights reserved.
+\n\n
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+\n\n
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+\n\n
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+\n\n
+THIS SOFTWARE IS PROVIDED BY ALPHA CEPHEI INC. AS IS AND
+ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL CARNEGIE MELLON UNIVERSITY
+NOR ITS EMPLOYEES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+    </string>
+    <string name="banner_ad_unit_id">ca-app-pub-8205015694325849/9405387215</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "466847527064",
+    "firebase_url": "https://admob-app-id-7928654016.firebaseio.com",
+    "project_id": "admob-app-id-7928654016",
+    "storage_bucket": "admob-app-id-7928654016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466847527064:android:de12e2dc822d89b7",
+        "android_client_info": {
+          "package_name": "nl.happyworx.srdemo.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466847527064-43m8lmvl2a29phbtkcublvqavbb9mt0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBhTtWW2WvqNgbiiy8aqWjjPfBXmKG7k8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

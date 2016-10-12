@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Happyworx SR Demo</string>
+
+    <string name="start_screen_caption_en"></string>
+    <string name="I_heared_caption">I heared : </string>
+    <string name="preparingRecognizer_caption">Preparing Recognizer \n\n Please Wait...</string>
+    <string name="info_screen_text">\n\nHappyworx Speech Recognition Demo\n\n
+
+This demo was programmed as a Proof of Concept for Pocketsphinx in context of a reading app for children.\n\n
+
+In this demo, Pocketsphinx is used in combination with the VoxForge language model for the Dutch language.
+To learn more about Pocketsphinx, visit \n\n http://cmusphinx.sourceforge.net/ \n\n To learn more about VoxForge, visit \n\n
+www.voxforge.org.\n\n
+
+If you want to know more about the HappyWorx initiative, please go to our FaceBook page or visit www.happyworx.nl.
+\n\n
+The following disclaimer applies to the Pocketsphinx implementation :
+\n\n
+Copyright © 2014 Alpha Cephei Inc.  All rights reserved.
+\n\n
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+\n\n
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+\n\n
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+\n\n
+THIS SOFTWARE IS PROVIDED BY ALPHA CEPHEI INC. AS IS AND
+ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL CARNEGIE MELLON UNIVERSITY
+NOR ITS EMPLOYEES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8205015694325849/9405387215</string>
+
+
+</resources>
