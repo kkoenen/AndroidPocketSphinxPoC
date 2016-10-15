@@ -112,6 +112,8 @@ public class PocketSphinxActivity extends Activity implements
         progress.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
         progress.setIndeterminate(false);
         progress.setProgress(0);
+        progress.setCancelable(false);
+        progress.setCanceledOnTouchOutside(false);
         progress.show();
 
 
@@ -119,8 +121,7 @@ public class PocketSphinxActivity extends Activity implements
             @Override
             protected Exception doInBackground(Void... params) {
                 try {
-                    if (Looper.myLooper() == null)
-                    {
+                    if (Looper.myLooper() == null) {
                         Looper.prepare();
                     }
                     // Read wordlist into array
@@ -173,6 +174,7 @@ public class PocketSphinxActivity extends Activity implements
 
                     doRecognizerStuff();
                     progress.hide();
+                    progress.dismiss();
                 }
             }
         }.execute();
@@ -296,10 +298,19 @@ public class PocketSphinxActivity extends Activity implements
                         mp = new MediaPlayer();
                     }
                     try {
-                        AssetFileDescriptor afd = getAssets().openFd("kitten_sounds.mp3");
-                        mp.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
-                        mp.prepare();
-                        mp.start();
+                        if (lang_value.equals("nl")) {
+                            AssetFileDescriptor afd = getAssets().openFd("kitten_sounds.mp3");
+                            mp.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
+                            mp.prepare();
+                            mp.start();
+                        }
+                        if (lang_value.equals("en")){
+                            AssetFileDescriptor afd = getAssets().openFd("supercal_sounds.mp3");
+                            mp.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
+                            mp.prepare();
+                            mp.start();
+                        }
+
 
                     } catch (Exception e) {
                         e.printStackTrace();
@@ -348,7 +359,7 @@ public class PocketSphinxActivity extends Activity implements
 
                 .setDictionary(new File(assetsDir, dictionary))
                 .setKeywordThreshold(1e-25f)
-                        // Use context-independent phonetic search, context-dependent is too slow for mobile
+                // Use context-independent phonetic search, context-dependent is too slow for mobile
                 .setBoolean("-allphone_ci", true)
                 .getRecognizer();
         recognizer.addListener(this);

@@ -6,6 +6,7 @@
     <string name="start_screen_caption_en"></string>
     <string name="I_heared_caption">Ik hoorde : </string>
     <string name="preparingRecognizer_caption">Spraakherkenning voorbereiden\n\n Even wachten aub...</string>
+    <string name="btn_set_easteregg_back">Opslaan en Terug</string>
         <string name="info_screen_text">\n\nHappyworx Speech Recognition Demo\n\n
 
 Deze demo is ontwikkeld als een Proof of Concept van Pocketsphinx in de context van een leren-lezen applicatie voor kinderen.\n\n
